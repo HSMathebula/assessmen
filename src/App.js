@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Bunner } from './pages/bunner/bunner';
-import { Accordion } from './pages/accordion/accordion';
+import { AccordionSection } from './pages/accordion/accordion';
 import { Main } from './pages/main';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/bunner" element={<Bunner />} />
-        <Route path="/accordion" element={<Accordion />} />
+        <Route path="/accordion" element={<AccordionSection />} />
       </Routes>
     </div>
   );

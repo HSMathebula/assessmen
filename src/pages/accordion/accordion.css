@@ -1,0 +1,102 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+body, html {
+  background-color: #f3f6fa;
+}
+
+:root {
+  --red: #ff5a5f;
+  --orange: #f26b2c;
+  --main: #1a2538;
+  --main-font: 'gilroy-regular';
+}
+
+a {
+  text-decoration: none;
+}
+
+.item-panel-container, p {
+    font-family: 'open sans', 'sans-serif'!important;
+}
+
+.accordion-body {
+  position: relative;
+  padding: 100px 80px 0 80px;
+  font-family:  var(--main-font);
+  color: var(--main);
+}
+
+.accordion-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-bottom: 1px solid #1a2538;
+  width: 35vw;
+  position: relative;
+}
+
+.heading-span {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'gilroy-bold';
+  font-size: 23px;
+}
+
+.heading-arrow-down {
+  color: #3a86ff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.heading-arrow-down:hover {
+  color: var(--orange);
+}
+
+.paragraph1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.item-text {
+  width: 100%;
+}
+
+.learn-more {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.learn-icon {
+  color: var(--orange);
+  width: 25px;
+  height: 24px;
+}
+
+.accordion-img {
+  position: absolute;
+  left: 100%;
+}
+
+#img1 {
+  top: 15%;
+}
+
+#img2 {
+  top: -30%;
+}
+
+#img3 {
+  top: -90%;
+}
+
+#img4 {
+  top: -110%;
+}
