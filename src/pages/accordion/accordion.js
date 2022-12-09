@@ -46,10 +46,6 @@ const items = [
 ]
 
 export const AccordionSection = () => {
-  const rotate = (e) => {
-    const arrow = e.target.child
-    arrow.style.cssText = 'color: var(--red);'
-  }
   return (
     <div className='accordion-body container'>
       <Accordion className='all-items container'
@@ -58,14 +54,25 @@ export const AccordionSection = () => {
           <AccordionItem className='accordion-item' key={ item.uuid }>
             <div className='item-text'>
               <AccordionItemHeading>
-                <AccordionItemButton className='heading' id={item.id} onClick={(e) => rotate(e)}>
-                  <h3 className='heading-span'>{ item.heading } <FaChevronDown className='heading-arrow-down' /></h3>
+                <AccordionItemButton className='heading' id={item.id}>
+                  <h3 className='heading-span'>{ item.heading }</h3>
+                  <FaChevronDown className='heading-arrow' />
                 </AccordionItemButton>
               </AccordionItemHeading>
 
               <AccordionItemPanel className='item-panel-container'>
                 <p className='paragraph1'>{ item.paragraph1 }</p>
                 <p className='paragraph2'>{ item.paragraph2 }</p>
+
+                <div className='cta'>
+                  <a href="https://www.snapdocs.com/digital-mortgage-closing-platform">
+                    <p className='cta1'>Expore the eSuite</p>
+                  </a>
+                  <a href="https://www.snapdocs.com/digital-mortgage-closing-platform">
+                    <p className='cta2'>Request a demo</p>
+                  </a>
+                </div>
+
                 <a href="https://www.snapdocs.com/digital-mortgage-closing-platform">
                   <p className='learn-more'>Leaen more<span><FaArrowCircleRight className='learn-icon' /></span></p>
                 </a>

@@ -47,8 +47,8 @@ export const Bunner = () => {
             <div className='inner-carousel'>
               {logos.map((logo, index) => {
                 return(
-                  <div className='logo-slider'>
-                    <div className='item' key={index}>
+                  <div className='logo-slider' key={index}>
+                    <div className='item'>
                       <img src={logo} alt='' />
                     </div>
                   </div>

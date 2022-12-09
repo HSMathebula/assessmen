@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: unset!important;
+}
+
+.navbar {
+  z-index: 999;
+}
+
+ul li {
+  list-style: none;
+}
+
+.links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  color: #1a2538;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.logo-name {
+  color: #1a2538;
+  margin-left: 40px;
+}
