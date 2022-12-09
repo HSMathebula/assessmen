@@ -17,7 +17,7 @@ export const Navbar = () => {
                 className={(navData) => (navData.isActive ? 'active link' : 'link')}
                 to="/"
               >
-                Monolith bunner
+                Monolith banner
               </NavLink>
             </li>
             <li className='link'>

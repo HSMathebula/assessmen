@@ -28,7 +28,7 @@ const logos = [
   'https://www.monolithai.com/hubfs/Siemens_logo.svg',
 ]
 
-export const Bunner = () => {
+export const Banner = () => {
   return (
     <div className='overlay'>
       <div className='background-img' />

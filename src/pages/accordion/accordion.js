@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import uuid from 'react-uuid';
-import { FaArrowCircleRight, FaChevronDown, FaAngleUp } from "react-icons/fa";
-import { animate, transform } from 'framer-motion';
+import { FaArrowCircleRight, FaChevronDown } from "react-icons/fa";
 import {
   Accordion,
   AccordionItem,
