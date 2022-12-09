@@ -93,6 +93,7 @@ a {
 
 .cta1 {
   background: #f26b2c;
+  border: 2px solid #f26b2c;
   color: white;
   border-radius: 4px;
   padding: 8px;
@@ -158,4 +159,57 @@ a {
 
 #img4 {
   top: -110%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .accordion-item {
+    width: 35vw;
+    margin-left: 50px;
+  }
+
+  .img {
+    display: unset;
+  }
+
+  .paragraph1 {
+    font-size: 16px;
+  }
+
+  .paragraph2 {
+    font-size: 16px;
+  }
+
+  .cta1 {
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .cta2 {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .learn-more {
+    width: 30%;
+  }
+
+  .accordion-img {
+    left: 106%;
+  }
+
+  #img1 {
+    top: 25%;
+  }
+
+  #img2 {
+    top: -10%;
+  }
+
+  #img3 {
+    top: -55%;
+  }
+
+  #img4 {
+    top: -70%;
+  }
 }

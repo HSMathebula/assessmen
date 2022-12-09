@@ -47,7 +47,7 @@ const items = [
 
 export const AccordionSection = () => {
   return (
-    <div className='accordion-body container'>
+    <div className='accordion-body'>
       <Accordion className='all-items container'
       allowZeroExpanded>
         {items.map((item) => (
