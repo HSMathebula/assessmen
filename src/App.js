@@ -1,15 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
 import { Bunner } from './pages/bunner/bunner';
-import { Accordion } from './pages/accordion/accordion';
-import { Main } from './pages/main';
+import { AccordionSection } from './pages/accordion/accordion';
+import { Navbar } from './pages/navbar';
 
 function App() {
   return (
     <div className="main-container">
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/bunner" element={<Bunner />} />
-        <Route path="/accordion" element={<Accordion />} />
+        <Route path="/" element={<Bunner />} />
+        <Route path="/accordion" element={<AccordionSection />} />
       </Routes>
     </div>
   );

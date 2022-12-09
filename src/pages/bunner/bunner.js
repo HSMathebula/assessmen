@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 const logos = [
   'https://www.monolithai.com/hs-fs/hubfs/honeywell-1-logo-black-and-white.png?width=193&height=36&name=honeywell-1-logo-black-and-white.png',
@@ -48,8 +47,8 @@ export const Bunner = () => {
             <div className='inner-carousel'>
               {logos.map((logo, index) => {
                 return(
-                  <div className='logo-slider'>
-                    <div className='item' key={index}>
+                  <div className='logo-slider' key={index}>
+                    <div className='item'>
                       <img src={logo} alt='' />
                     </div>
                   </div>

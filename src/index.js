@@ -4,6 +4,7 @@ import { BrowserRouter as Routers } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import '../src/pages/bunner/bunner.css'
+import '../src/pages/accordion/accordion.css'
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
