@@ -40,3 +40,9 @@ ul li {
   color: #1a2538;
   margin-left: 40px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .logo-name {
+    margin-left: 0;
+  }
+}
